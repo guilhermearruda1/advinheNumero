@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+:root {
+    --font-family: 'Courier Prime', monospace;
+    --bg-color: #0D3F5E; /*#0D3F5E*/
+    --primary-color: #F2EEEE; /*#F2EEEE */
+    --secondary-color: ;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.btn-jogar {
+    font-size: 1em;
+    padding: 8px 20px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 100px;
+    margin-top: 20px;
+    color: #180000;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.btn-jogar:hover {
+    background-color: #83aedd;
+    transform: translateY(-2px);
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
